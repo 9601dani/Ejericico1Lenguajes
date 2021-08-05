@@ -58,7 +58,7 @@ public class Manejador {
             for (int k=0;k<simbolos.length;k++){
                 if(cadena[g]== simbolos[k]){
                     token.setTipo(Identificador.SIMBOLO);
-                    datos.introducirDatosALaLista(palabra +" ES UN "+token.getTipo());
+                    datos.introducirDatosALaLista(cadena[g] +" ES UN "+token.getTipo());
                     contS++;
                     contL++;
                 }
